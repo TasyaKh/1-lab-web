@@ -1,0 +1,82 @@
+
+
+ /* #2-4 */
+
+ .paragraph1{
+   background-color: cornflowerblue;
+}
+
+ .paragraph2{
+    background-color: rgb(164, 237, 100);
+ }
+
+ .paragraph3{
+    background: linear-gradient(135deg, rgb(88, 255, 32) 0%, rgb(161, 135, 255) 100%);
+ }
+
+.paragraph1 .adjective{
+   background-color: rgb(154, 243, 255);
+}
+
+.paragraph2 .adjective{
+   background-color: rgb(150, 100, 237);
+}
+
+.paragraph3 .adjective{
+   background-color: rgb(237, 100, 175);
+}
+ /* тут пробел уже не ставим, прямо склеиваем имена классов */
+.paragraph1.bordered {
+   padding:8px 16px; 
+   margin: 8px;
+   border: 4px solid blueviolet;
+}
+
+ /* тут пробел уже не ставим, прямо склеиваем имена классов */
+ .paragraph2.bordered {
+   padding:8px 16px;
+    margin: 8px;
+   border: 2px solid rgb(43, 226, 208);
+}
+
+ /* тут пробел уже не ставим, прямо склеиваем имена классов */
+ .paragraph3.bordered {
+    padding:8px 16px;
+    margin: 8px;
+    border: 8px solid rgb(226, 43, 43);
+}
+
+ .bordered, .paragraph1 .adjective, .paragraph2 .adjective, .paragraph3 .adjective{
+    /* в этот новый стиль вынес все связанной с блоком и рамкой */
+     border: 2px dashed black;
+     display: inline-block; 
+     margin: 2px; 
+     padding: 0 4px;
+     border-radius: 8px;
+     box-shadow: 0 0 8px grey;
+ }
+
+ /* .adj-all-color:hover .adjective{
+   background-color: rgb(255, 252, 154);
+} */
+
+.adjective:hover ~ .adjective, .adjective:hover{
+   background: rgb(75, 75, 33);
+
+   cursor: pointer;
+   padding: 6px;
+}
+
+ .adjective {
+    /* тут оставил только цвет и активацию плавных переходов */
+    background: rgb(227, 255, 172);
+    transition: all 0.3s ease;
+}
+
+
+
+ .name{
+    padding: 2px;
+    border: 3px solid rebeccapurple;
+    background-color:white;
+ }

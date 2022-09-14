@@ -1,0 +1,50 @@
+ /* #9 */
+ .main-image-wrapper {
+    box-shadow: 5px 5px 30px indianred;
+}
+
+
+.container-card {
+    border: 1px solid indianred;
+    background: linear-gradient(135deg, rgb(231, 233, 255) 0%, rgb(255, 239, 239) 100%);
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+}
+
+
+.image-circle {
+    width: 250px;
+    height: 250px;  
+    border-radius: 50%;
+    border: 1px solid gray;
+    /* поставил 50% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+   
+}
+
+.main-image {
+     width: 120%;
+     height: 120%;
+    --fa-animation-duration: 15s;
+}
+
+.character {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.end-txt {
+    text-align: end;
+    font-weight: bold;
+}
+
+
+
+
+/* cloudflare customize*/
+.fa-fire {
+    color: indianred;
+}

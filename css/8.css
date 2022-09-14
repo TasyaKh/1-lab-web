@@ -1,0 +1,25 @@
+
+
+.block {
+    border: 1px solid black;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+
+[class^=col] { 
+    background-color: yellow;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+[class^=col-1] { 
+    background-color: yellow;
+    flex-basis: 200px;
+    height: 200px;
+}
+
+[class^=col-2] { 
+    background-color: yellow;
+    flex-basis: 413px;
+    height: 200px;
+}

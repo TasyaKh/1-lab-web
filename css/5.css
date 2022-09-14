@@ -1,0 +1,23 @@
+.block {
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    /* отступ снизу */
+    flex-grow: 1;
+    margin: 0.25rem;
+    /* оступы вокруг блоков */
+    padding: 0.5rem;
+    /* отступы внутри блоков */
+    flex-basis: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.fish{
+    background-color:aquamarine;
+}
+
+.tree{
+    background-color: greenyellow;
+}

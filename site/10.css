@@ -1,0 +1,292 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1C1B21;
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 56px;
+
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-item a {
+    color: #FFFFFF !important;
+}
+
+.first-screen {
+    background: url(./images/main.jpg);
+    height: 1000px;
+}
+
+.top-margin-nav {
+    margin-top: 42px;
+}
+
+.navbar-brand {
+    margin-top: 30px;
+    margin-right: 65px;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.content-main {
+    margin-top: 412px;
+}
+
+.uniquie-txt-main {
+
+    font-size: 100px;
+    font-weight: 700;
+    color: transparent;
+    /* прозрачный цвет букв */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFFFFF;
+
+}
+
+.wrapper-main-content-txt {
+    margin-top: 10px;
+    margin-bottom: 52px;
+}
+
+
+
+/* news */
+
+.news-container,
+.about-us-container,
+.text-container {
+
+    background: transparent;
+    position: relative;
+}
+
+.news-container img {
+    border-radius: 20px 0px;
+
+}
+
+.news-block-txt {
+
+    height: 90px;
+    height: 90px;
+    width: 100%;
+
+    margin: 0% auto;
+    display: flex;
+    background: #7A66CC;
+    opacity: 0.7;
+    border-radius: 20px 0px;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    bottom: 0%;
+
+    padding: 20px;
+}
+
+/* about-us */
+
+#about-us {
+    margin-top: 179px;
+}
+
+.about-us-txt {
+    margin: 60px 0;
+    margin-right: 125px;
+}
+
+.about-us-container img,
+.text-img-absolute img,
+.gallery-border img,
+.events-border-img img,
+.rounded-corners-30px {
+    border-radius: 30px 0px;
+}
+
+.about-us-img-group {
+    position: relative;
+
+    width: 445px;
+    height: 466px;
+}
+
+.about-us-img-back {
+    position: absolute;
+    top: 66px;
+    left: 95px;
+    bottom: 0%;
+}
+
+#about-us ul {
+    list-style-image: url("./images/about-us/Rectangle\ about\ us.svg");
+}
+
+#about-us ul li {
+    padding-left: 20px;
+}
+
+/* text */
+
+#text {
+    margin-top: 238px;
+    height: 313px;
+}
+
+.text-container {
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 0px;
+    padding: 50px 55% 50px 80px;
+}
+
+#text hr {
+    opacity: 0.6;
+    margin: 25px 0;
+
+    border: 1px solid #FFFFFF;
+}
+
+.text-img-absolute {
+    position: absolute;
+    right: 80px;
+    top: -85px;
+}
+
+a.purple {
+    color: #7A66CC;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+a.purple:hover {
+    color: #c6b8ff;
+}
+
+
+
+
+
+/* tracks */
+#tracks {
+    margin-top: 265px;
+}
+
+#tracks .img-rounded {
+    border-radius: 50%;
+}
+
+
+#tracks .content {}
+
+.tracks-container-footer {
+    margin-top: 50px;
+}
+
+.ol_zeros {
+    counter-reset: num;
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 0;
+}
+
+.ol_zeros li {
+    counter-increment: num;
+    position: relative;
+    margin: 20px 0 20px 40px;
+    padding: 0 0 0 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ol_zeros li:before {
+    content: counter(num);
+    color: #777;
+    position: absolute;
+    left: -40px;
+    top: 0;
+    text-align: right;
+    font-family: Courier New, monospace;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ol_zeros li:nth-child(-n+9):before {
+    content: "0" counter(num);
+}
+
+
+/* gallery */
+
+#gallery {
+    margin-top: 180px;
+}
+
+#gallery .text-center {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+/* enevts */
+#events {
+    margin-top: 180px;
+}
+
+#events .card-ticket {
+    background: #2F2B2B;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.gray-txt {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+#events .txt{
+    margin: 20px 0px;
+}
+
+.button{
+    background: #7A66CC;
+    border-radius: 30px 0px;
+    border: none;
+    width: 180px;
+    height: 60px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    background-color: transparent;
+
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+    border:2px solid #7A66CC;
+}
+
+#events  .img-description{
+    margin-left: 30px;
+}
+
+
+/* footer */
+
+.container-footer{
+    margin: 0 30%;
+    text-align: center;
+}
+
+footer{
+    margin-top: 180px;
+}
+

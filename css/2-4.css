@@ -1,7 +1,9 @@
 
 
  /* #2-4 */
-
+ .paragraph1:hover .adjective, .paragraph2:hover .adjective,  .paragraph3:hover .adjective{
+   background-color: rgb(50, 125, 135);
+}
  .paragraph1{
    background-color: cornflowerblue;
 }
@@ -49,7 +51,6 @@
  .bordered, .paragraph1 .adjective, .paragraph2 .adjective, .paragraph3 .adjective{
     /* в этот новый стиль вынес все связанной с блоком и рамкой */
      border: 2px dashed black;
-     display: inline-block; 
      margin: 2px; 
      padding: 0 4px;
      border-radius: 8px;
@@ -60,7 +61,7 @@
    background-color: rgb(255, 252, 154);
 } */
 
-.adjective:hover ~ .adjective, .adjective:hover{
+.adjective:hover .adjective, .adjective:hover{
    background: rgb(75, 75, 33);
 
    cursor: pointer;
